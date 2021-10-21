@@ -1,0 +1,37 @@
+<h1>New planet</h1>
+
+
+<form action="<%= planets_path %>" method="post">
+
+<label>
+Name: 
+<input type="text" name="name" required>
+</label><br>
+
+<label>
+Image:
+<input type="url" name="image">
+</label><br>
+
+<label>
+Orbit:
+<input type="number" name="orbit">
+</label><br>
+
+<label>
+Diameter:
+<input type="number" name="diameter">
+</label><br>
+
+<label>
+Mass:
+<input type="number" name="mass">
+</label><br>
+
+<label>
+Moons:
+<input type="number" name="moons">
+</label><br>
+
+<button>Submit</button>
+</form>
